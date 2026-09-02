@@ -10,6 +10,8 @@ Small, tested Python projects that explain security concepts through code.
 
 A command-line monoalphabetic substitution cipher with reusable encode/decode functions, input validation, and automated tests.
 
+![Substitution cipher command-line session](docs/images/substitution-cipher-cli.png)
+
 Run it with:
 
 ```console
