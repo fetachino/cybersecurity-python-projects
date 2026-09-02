@@ -26,6 +26,12 @@ A command-line monoalphabetic substitution cipher with reusable encode/decode fu
 
 ![Substitution cipher command-line session](docs/images/substitution-cipher-cli.png)
 
+### Encode and decode verification
+
+![Substitution cipher decoding a message back to its original text](docs/images/substitution-cipher-decode.png)
+
+The two CLI captures demonstrate both transformation directions while preserving capitalization, spaces, numbers, and punctuation.
+
 Run it with:
 
 ```console
