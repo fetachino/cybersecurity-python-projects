@@ -52,6 +52,10 @@ Concepts demonstrated:
 
 The test suite checks a known encoding, reversible round trips, preservation of case and punctuation, and rejection of invalid substitution keys.
 
+Run the test suite with `python -m unittest discover -s tests -v` to verify the reversible transformation and input validation behavior.
+
+Run the test suite with `python -m unittest discover -s tests -v` to verify the reversible transformation and input validation behavior.
+
 ## About the author
 
 Built by **Ahmed Balde** as part of a broader cybersecurity and Python engineering portfolio. See more work on [GitHub](https://github.com/fetachino).
