@@ -6,6 +6,20 @@
 
 Small, tested Python projects that explain security concepts through code.
 
+## Program flow
+
+```mermaid
+flowchart LR
+    A["User selects an operation"] --> B{"Encode or decode"}
+    B -->|Encode| C["Apply substitution mapping"]
+    B -->|Decode| D["Apply inverse mapping"]
+    C --> E["Preserve case and punctuation"]
+    D --> E
+    E --> F["Display transformed message"]
+    G["Unit tests"] --> C
+    G --> D
+```
+
 ## Substitution cipher
 
 A command-line monoalphabetic substitution cipher with reusable encode/decode functions, input validation, and automated tests.
